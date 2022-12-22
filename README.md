@@ -15,9 +15,9 @@ In recent years, the video game industry has experienced a significant shift tow
 ***
 
 ## Data undestanding and Preparation
-To build a recommendation system, I used a dataset containing reviews from over 112,000 customers on more than 7,000 different video game related items, for a total of over 140,000 reviews collected from Amazon, covering the period from 2006 to 2015. 
+To build a recommendation system, I used a dataset containing over 140,000 reviews from approximately 112,000 customers and more than 7,000 different video-game items. It was collected from Amazon, and all reviews use the 1-5 starts rating system. The time frame of the dataset ranges from 2006 to 2015.
 
-To prepare the dataset, I used the pandas library in Python to perform initial exploration and cleaning. This included dropping any non-game items such as subscription services, DLCs, or virtual currency, and grouping items by name by deleting any necessary substrings. I then loaded the data in a new format for use with the surprise library and performed a train-test split to prepare it for modeling
+To prepare the dataset, I used the pandas library in Python to perform initial exploration and cleaning. This included dropping any non-game items such as subscription services, DLCs and virtual currency. After that, i grouped items by name by deleting any necessary substrings, then loaded the necessary features, including `customer_id`, `game_title` and `rating`, into a new format for use with the surprise library, and performed a train-test split to prepare the data for modeling.
 
 You can find the dataset i used on kaggle [here](https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Digital_Video_Games_v1_00.tsv)
 ***
@@ -41,11 +41,11 @@ You can find the dataset i used on kaggle [here](https://www.kaggle.com/datasets
 ***
 
 ## Modeling
-To build the recommendation system, I employed the scikit-surprise library in Python, which offers a range of algorithms for creating recommendation models. In this case, I utilized collaborative filtering techniques to generate recommendations based on user-item interactions. This involves using machine learning to uncover the underlying patterns in the data and make predictions. To optimize the model, I conducted a grid search to find the best set of hyperparameters and evaluated the performance of the model using the root mean squared error.
+To build the recommendation system, I employed the scikit-surprise library in Python, which offers a range of algorithms for creating recommendation models. In this case, I utilized collaborative filtering techniques to generate recommendations based on user-item interactions. This involves using machine learning to uncover the underlying patterns in the data and make predictions. To optimize the model, I  performed a grid search to find the best set of hyperparameters and evaluated the performance of the model using the root mean squared error. A small RMSE value indicates that the model's predictions are close to the actual ratings(the true values), while a large RMSE value indicates that the predictions are far from the truth. I also included the mean absolute error (MAE) to observe the average differance between prediction and true rating, but i decided my next steps based only on RMSE results.
 ***
 
 ## Evaluation
-To evaluate the performance of different models, I used the RMSE as the metric of choice. After analyzing the results, it found that the SVD model with hyperparameters from the third grid search achieved the best performance, with an RMSE of 1.2118. This value is lower than the RMSE of 1.7792 produced by the baseline model, indicating a significant improvement.
+To evaluate the performance of different models, I used the RMSE as the metric of choice. After analyzing the results, i found that the SVD model with hyperparameters from the third grid search achieved the best performance, with an RMSE of 1.2118. This value is lower than the RMSE of 1.7792 produced by the baseline model, indicating a significant improvement.
 
 ![model_comparasion](./images/Models_Evaluation.png)
 
