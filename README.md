@@ -20,7 +20,6 @@ To build a recommendation system, I used a dataset containing over 140,000 revie
 To prepare the dataset, I used the pandas library in Python to perform initial exploration and cleaning. This included dropping any non-game items such as subscription services, DLCs and virtual currency. After that, i grouped items by name by deleting any necessary substrings, then loaded the necessary features, including `customer_id`, `game_title` and `rating`, into a new format for use with the surprise library, and performed a train-test split to prepare the data for modeling.
 
 You can find the dataset i used on kaggle [here](https://www.kaggle.com/datasets/cynthiarempel/amazon-us-customer-reviews-dataset?select=amazon_reviews_us_Digital_Video_Games_v1_00.tsv)
-***
 
 #### Columns
 - **marketplace**: 2 letter country code of the marketplace where the review was written.
@@ -58,19 +57,19 @@ While SVD++ models also demonstrated an improvement compared to the baseline mod
 
 
 # Conclusion
-The SVD model can predict ratings for games that a user has not played based on their past behavior and provide top recommendations accordingly; By analyzing the purchase and rating history of similar users, it can recommend the highest rated games to a new one. Kotaku, a gaming website that is not directly involved in game development, can benefit from implementing this system by offering personalized recommendations to its audience without any outside advertising influence. Kotaku's dedication to creating a positive experience for gamers and its desire to continually improve its site drives the decision to implement such a system, which also has the added benefit of increasing website traffic and engagement.
+The SVD model can make recommendations for games that a user has not played yet by using their past behavior and the rating history of similar users. It can predict the ratings of these games and recommend the ones that are most likely to be highly rated. Kotaku, a gaming website that is not directly involved in game development, can benefit from implementing this system by offering personalized recommendations to its audience without any outside advertising influence. Kotaku's dedication to creating a positive experience for gamers and its desire to continually improve its site drives the decision to implement such a system, which also has the added benefit of increasing website traffic and engagement.
 
 **limitations**<br>
-A major drawback of collaborative filtering is its reliance on the quantity of user feedback(reatings), i narrowed the dataset by only including users who had provided more than 5 reviews, this reduced the number of game titles by nearly 50%, but I was still left with 3000 games to use in the model. While this approach did lead to a lower RMSE, the recommendations for almost all users tended to be the same, this could be due to the sparsity in the data, when there are few ratings relative to the total number of items. In these cases, it can be difficult to identify similar users and make reliable recommendations. One way to address this issue is to increase the amount of data available. Another approach is to implement a content-based recommendation model, which makes recommendations based on the similarity of items rather than user behavior. This can lead to more diverse recommendations and may also help to solve the "cold start" problem, where a lack of data makes it difficult to generate reliable recommendations for new users. A content-based model does not rely on user feedback such as ratings, so it can provide recommendations even when data is limited.
+A major drawback of collaborative filtering is its reliance on the quantity of user feedback, i narrowed the dataset by only including users who had provided more than 5 reviews, this reduced the number of game titles by nearly 50%, but I was still left with 3000 games to use in the model. While this approach did lead to a lower RMSE, the recommendations for almost all users tended to be the same, this could be due to the sparsity in the data when there are few ratings relative to the total number of items. In these cases, it can be difficult to identify similar users and make reliable recommendations. One way to address this issue is to increase the amount of data available. Another approach is to implement a content-based recommendation model, which makes recommendations based on the similarity of items rather than user behavior. This can lead to more diverse recommendations and may also help to solve the "cold start" problem, where a lack of data makes it difficult to generate reliable recommendations for new users. A content-based model does not rely on user feedback such as ratings, so it can provide recommendations even when data is limited.
 
 **Next steps**<br>
-One potential next step to improve the recommendation system would be to implement a content-based approach using game genres, platform, and developer information as features for the model. This would allow the model to recommend similar games based on the characteristics of the games that a user has already played. Another option to consider is using NLP on the review text provided by customers to incorporate additional insights into the model. this could provide a more personalized recommendation experience for users
+One potential next step to improve the recommendation system would be to implement a content-based approach using game genres, platform, and developer information as features for the model. This would allow the model to recommend similar games based on the characteristics of the games that a user has already played. Another option to consider is using NLP on the review text provided by customers to incorporate additional insights into the model. this could provide a more personalized recommendation experience for users.
 
 ***
 
 ## Citations and Resourses
 
-* #### [Surprise Documentation](https://surprise.readthedocs.io/en/stable/dataset.html?highlight=build_full_trainset()#surprise.dataset.DatasetAutoFolds.build_full_trainset)
+* #### [Surprise Documentation](https://surprise.readthedocs.io/en/stable/)
 
 * #### [Daniel Burdeno - Kindle-eBook-Recommendations](https://github.com/danielburdeno/Kindle-eBook-Recommendations)
 
@@ -79,8 +78,6 @@ One potential next step to improve the recommendation system would be to impleme
 * #### [Neil Chandarana - SVD: Where Model Tuning Goes Wrong](https://towardsdatascience.com/svd-where-model-tuning-goes-wrong-61c269402919)
 
 * #### [Simon Funk jornal about SVD](https://sifter.org/~simon/journal/20061211.html)
-
-* #### [Charles Parr's response to datasets inside fig object](https://stackoverflow.com/questions/45286696/how-to-display-dataframe-next-to-plot-in-jupyter-notebook)
 
 * #### **Cover image** :Logo from [kotaku.com](https://kotaku.com/), background from [Nintendo](https://www.nintendo.com/)
 
