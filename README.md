@@ -56,8 +56,10 @@ While SVD++ models also demonstrated an improvement compared to the baseline mod
 ![fit_Time_comparasion](./images/Fit_time_bar.png)
 ***
 
-### App demo
+## App demo
+[![Video Demo](https://companiesmarketcap.com/img/company-logos/256/VMEO.png)](https://vimeo.com/785099791)
 
+***
 
 # Conclusion
 The SVD model can make recommendations for games that a user has not played yet by using their past behavior and the rating history of similar users. It can predict the ratings of these games and recommend the ones that are most likely to be highly rated. Polygon, a gaming website that is not directly involved in game development, can benefit from implementing this system by offering personalized recommendations to its audience without any outside advertising influence. Polygon's dedication to creating a positive experience for gamers and its desire to continually improve its site drives the decision to implement such a system, which also has the added benefit of increasing website traffic and engagement.
