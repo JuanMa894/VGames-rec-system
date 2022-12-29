@@ -85,7 +85,16 @@ One potential next step to improve the recommendation system would be to impleme
 * #### **Cover image** :Logo from [Polygon](https://Polygon.com/), background from [Nintendo](https://www.nintendo.com/)
 
 
-### Repository Structure
-
-
-
+## Repository Structure
+```
+├── Model                             <- Saved model used for app
+├── Data                              <- Datasets, raw data = Digital_Video_Games.tsv, cleaned = GameRatings.csv.
+├── images                            <- Images and graphs used on the notebook, README and App file.
+├── .gitignore                        <- Rules to ignore by Github.
+├── README.md                         <- This file.
+├── Game_recommender_system.ipynb     <- Jupyter notebook with data cleaning and collaborative-filtering system.
+├── LICENSE.md                        <- LICENSE.
+├── README.md                         <- This file.
+├── environment.yml                   <- Environment required to run project
+└── recommender_app.py                <- Code for the streamlit app.
+```
