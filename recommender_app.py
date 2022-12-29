@@ -23,6 +23,8 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('images/app_cover.png')  
 
+logo = Image.open('images/Polygon_logo.png')
+st.image(logo, caption='')
 
 st.title('Game Recommendation System')
 
@@ -89,3 +91,5 @@ if rec_button:
     recomm = game_recommender(customer_id, num_of_rec)
     st.write(recomm)
 
+st.subheader('By Juan Acosta')
+st.markdown('[GitHub](https://github.com/JuanMa894/VGames-rec-system), [Linkedin](https://www.linkedin.com/in/jun-acost/)')
