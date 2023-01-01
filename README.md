@@ -57,6 +57,10 @@ While SVD++ models also demonstrated an improvement compared to the baseline mod
 ***
 
 ## App demo
+I used streamlit to adapt the function for use in a recommendation app so I could see how a user might interact with it. Streamlit is a Python library that helps you build interactive web-based applications.
+
+[Video Demo](https://vimeo.com/785099791) hosted on vimeo
+
 [![Video Demo](https://companiesmarketcap.com/img/company-logos/256/VMEO.png)](https://vimeo.com/785099791)
 
 ***
