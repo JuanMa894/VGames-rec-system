@@ -97,7 +97,6 @@ One potential next step to improve the recommendation system would be to impleme
 ├── Data                              <- Datasets, raw data = Digital_Video_Games.tsv, cleaned = GameRatings.csv.
 ├── images                            <- Images and graphs used on the notebook, README and App file.
 ├── .gitignore                        <- Rules to ignore by Github.
-├── README.md                         <- This file.
 ├── Game_recommender_system.ipynb     <- Jupyter notebook with data cleaning and collaborative-filtering system.
 ├── LICENSE.md                        <- LICENSE.
 ├── README.md                         <- This file.
