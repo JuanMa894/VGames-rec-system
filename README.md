@@ -4,7 +4,7 @@
 
 ***
 ## Motivation
-In 2022, over 1,100 games were released, and this number doesn't even include indie developer games. The total number of games available has reached millions, making it increasingly difficult for players to discover new titles. To address this problem, a project was initiated using data from 140,000 game reviews. Utilizing the Surprise package in Python, the machine learning model created through this project achieved an RMSE of 1.20. This means that the model is able to predict the star rating (out of 5) for a given game and user within a margin of 1 star
+In 2022, over 1,100 games were released, and this number doesn't even include indie developer games. The total number of games available has reached millions, making it increasingly difficult for players to discover new titles. To address this problem, a project was initiated using data from 140,000 game reviews. Utilizing the Surprise package in Python, the machine learning model created through this project achieved an RMSE of 1.20. This means that the model is able to predict the star rating (out of 5) for a given game and user with a margin close to 1 star.
 ***
 
 ## Business understanding
@@ -97,7 +97,6 @@ One potential next step to improve the recommendation system would be to impleme
 ├── Data                              <- Datasets, raw data = Digital_Video_Games.tsv, cleaned = GameRatings.csv.
 ├── images                            <- Images and graphs used on the notebook, README and App file.
 ├── .gitignore                        <- Rules to ignore by Github.
-├── README.md                         <- This file.
 ├── Game_recommender_system.ipynb     <- Jupyter notebook with data cleaning and collaborative-filtering system.
 ├── LICENSE.md                        <- LICENSE.
 ├── README.md                         <- This file.
