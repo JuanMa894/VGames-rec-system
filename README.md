@@ -59,9 +59,9 @@ While SVD++ models also demonstrated an improvement compared to the baseline mod
 ## App demo
 I used streamlit to adapt the function for use in a recommendation app so I could see how a user might interact with it. Streamlit is a Python library that helps you build interactive web-based applications.
 
-[Video Demo](https://vimeo.com/785099791) hosted on vimeo
+[Video Demo](https://youtu.be/JZrWXtbQiCw) hosted on youtube
 
-[![Video Demo](https://companiesmarketcap.com/img/company-logos/256/VMEO.png)](https://vimeo.com/785099791)
+[![Video Demo](https://www.designbust.com/download/630/png/youtube_transparent_logo512.png)](https://youtu.be/JZrWXtbQiCw)
 
 ***
 
@@ -93,13 +93,14 @@ One potential next step to improve the recommendation system would be to impleme
 
 ## Repository Structure
 ```
-├── Model                             <- Saved model used for app
-├── Data                              <- Datasets, raw data = Digital_Video_Games.tsv, cleaned = GameRatings.csv.
+├── Model                             <- Saved model used for app.
+├── Data                              <- Datasets.
 ├── images                            <- Images and graphs used on the notebook, README and App file.
 ├── .gitignore                        <- Rules to ignore by Github.
-├── Game_recommender_system.ipynb     <- Jupyter notebook with data cleaning and collaborative-filtering system.
+├── Content_Based_system.ipynb        <- Jupyter notebook, Content-based system.
+├── Game_recommender_system.ipynb     <- Jupyter notebook, data cleaning and collaborative-filtering system.
 ├── LICENSE.md                        <- LICENSE.
 ├── README.md                         <- This file.
-├── environment.yml                   <- Environment required to run project
+├── environment.yml                   <- Environment required to run project.
 └── recommender_app.py                <- Code for the streamlit app.
 ```
