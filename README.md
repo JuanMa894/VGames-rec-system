@@ -76,6 +76,11 @@ One potential next step to improve the recommendation system would be to impleme
 
 ***
 
+## Content-based System
+I also developed a content-based recommender system using a different dataset that includes metadata about the games, such as their genre, platform, and publisher. This system utilizes additional details about the games themselves to provide recommendations, in contrast to the previous collaborative filtering system that only used user ratings to give recommendations.
+
+Take a look at the Content-based system on [here](https://github.com/JuanMa894/VGames-rec-system/blob/main/Content_Based_system.ipynb)
+
 ## Citations and Resourses
 
 * #### [Surprise Documentation](https://surprise.readthedocs.io/en/stable/)
