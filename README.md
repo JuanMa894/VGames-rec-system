@@ -8,16 +8,16 @@ In 2022, over 1,100 games were released, and this number doesn't even include in
 ***
 
 ## Overview
-#### [Business understanding](https://github.com/JuanMa894/VGames-rec-system#business-understanding)
-#### [Data undestanding and Preparation](https://github.com/JuanMa894/VGames-rec-system#data-undestanding-and-preparation)
-#### [Modeling](https://github.com/JuanMa894/VGames-rec-system#modeling)
-#### [Evaluation](https://github.com/JuanMa894/VGames-rec-system#evaluation)
-#### [App demo](https://github.com/JuanMa894/VGames-rec-system#app-demo)
-#### [Conclusion](https://github.com/JuanMa894/VGames-rec-system#conclusion)
-#### [Content-based System](https://github.com/JuanMa894/VGames-rec-system#content-based-system)
-#### [Citations and Resourses](https://github.com/JuanMa894/VGames-rec-system#citations-and-resourses)
-#### [Contact info](https://github.com/JuanMa894/VGames-rec-system#contact-info)
-#### [Repository Structure](https://github.com/JuanMa894/VGames-rec-system#repository-structure)
+#### [Business understanding](https://github.com/JuanMa894/VGames-rec-system#business-understanding-1)
+#### [Data undestanding and Preparation](https://github.com/JuanMa894/VGames-rec-system#data-undestanding-and-preparation-1)
+#### [Modeling](https://github.com/JuanMa894/VGames-rec-system#modeling-1)
+#### [Evaluation](https://github.com/JuanMa894/VGames-rec-system#evaluation-1)
+#### [App demo](https://github.com/JuanMa894/VGames-rec-system#app-demo-1)
+#### [Conclusion](https://github.com/JuanMa894/VGames-rec-system#conclusion-1)
+#### [Content-based System](https://github.com/JuanMa894/VGames-rec-system#content-based-system-1)
+#### [Citations and Resourses](https://github.com/JuanMa894/VGames-rec-system#citations-and-resourses-1)
+#### [Contact info](https://github.com/JuanMa894/VGames-rec-system#contact-info-1)
+#### [Repository Structure](https://github.com/JuanMa894/VGames-rec-system#repository-structure-1)
 ***
 
 ## Business understanding
