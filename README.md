@@ -7,6 +7,19 @@
 In 2022, over 1,100 games were released, and this number doesn't even include indie developer games. The total number of games available has reached millions, making it increasingly difficult for players to discover new titles. To address this problem, a project was initiated using data from 140,000 game reviews. Utilizing the Surprise package in Python, the machine learning model created through this project achieved an RMSE of 1.20. This means that the model is able to predict the star rating (out of 5) for a given game and user with a margin close to 1 star.
 ***
 
+## Overview
+#### [Business understanding](https://github.com/JuanMa894/VGames-rec-system#business-understanding)
+#### [Data undestanding and Preparation](https://github.com/JuanMa894/VGames-rec-system#data-undestanding-and-preparation)
+#### [Modeling](https://github.com/JuanMa894/VGames-rec-system#modeling)
+#### [Evaluation](https://github.com/JuanMa894/VGames-rec-system#evaluation)
+#### [App demo](https://github.com/JuanMa894/VGames-rec-system#app-demo)
+#### [Conclusion](https://github.com/JuanMa894/VGames-rec-system#conclusion)
+#### [Content-based System](https://github.com/JuanMa894/VGames-rec-system#content-based-system)
+#### [Citations and Resourses](https://github.com/JuanMa894/VGames-rec-system#citations-and-resourses)
+#### [Contact info](https://github.com/JuanMa894/VGames-rec-system#contact-info)
+#### [Repository Structure](https://github.com/JuanMa894/VGames-rec-system#repository-structure)
+***
+
 ## Business understanding
 [Polygon](Polygon.com) is a well-known video game website and blog that was founded in 2012 and has been recognized as one of PC Magazine's top 100 classic web sites. Polygon describes itself as a news and opinion site about games and topics that are important to serious gamers, and strives to be an inclusive platform for gamers of all ethnicities, genders, and sexual orientations. The site expects its writers and commenters to treat the people they write about with respect, as they would if they were to meet them in person. Polygon aims to provide a welcoming and respectful community for gamers of all backgrounds.
 
@@ -77,7 +90,7 @@ One potential next step to improve the recommendation system would be to impleme
 ***
 
 ## Content-based System
-I also developed a content-based recommender system using a different dataset that includes metadata about the games, such as their genre, platform, and publisher. This system utilizes additional details about the games themselves to provide recommendations, in contrast to the collaborative filtering system that only used user ratings to give recommendations.
+I also developed a content-based recommender system using a different dataset that includes metadata about the games, such as their genre, platform, and publisher. This system utilizes additional details about the games themselves to provide recommendations, in contrast to the collaborative filtering system that only uses ratings.
 
 Take a look at the Content-based system on [here](https://github.com/JuanMa894/VGames-rec-system/blob/main/Content_Based_system.ipynb)
 
@@ -94,6 +107,13 @@ Take a look at the Content-based system on [here](https://github.com/JuanMa894/V
 * #### [Simon Funk jornal about SVD](https://sifter.org/~simon/journal/20061211.html)
 
 * #### **Cover image** :Logo from [Polygon](https://Polygon.com/), background from [Nintendo](https://www.nintendo.com/)
+
+
+## Contact info
+Juan Acosta 
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/JuanMa894)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jun-acost/)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:jmaa3108@gmail.com)
 
 
 ## Repository Structure
